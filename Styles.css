@@ -1,7 +1,10 @@
-*{
-font-family: "fira sans";
-
+@font-face {
+    font-family: FiraSans;
+    src: url(FiraSans-Regular.woff);
+    font-weight: 300px
 }
+
+
 
 
 body {
@@ -13,6 +16,9 @@ body {
 
 
 }
+
+
+
 
 ul {
     list-style-type: none;
@@ -35,6 +41,26 @@ li a {
     text-decoration: none;
 }
 
+
+li:first-child {
+    display: block;
+    color: white;
+    background: #FF4850;
+    padding: 0;
+    background-radius: 15px;
+
+
+}
+
+
+
 li a:hover {
-    background-color: #FF4850;
+    background-color: #CCC;
+    border-radius: 15px
+}
+
+
+
+.adopting {
+  color: #FF4850;
 }
