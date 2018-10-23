@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: FiraSans;
     src: url(FiraSans-Regular.woff);
@@ -10,7 +12,9 @@
 body {
   background-image: url("bulldog.jpg");
   background-repeat: no-repeat;
+  background-attachment: fixed;
     background-size: cover;
+    background-color: #F0ECEE;
 
 
 
@@ -19,48 +23,65 @@ body {
 
 
 
-
-ul {
-    list-style-type: none;
+.menu ul
+{
+  list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: none;
 
-}
-
-li {
-    float: right;
-}
-
-li a {
-    display: block;
-    color: #88898B;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-}
-
-
-li:first-child {
-    display: block;
-    color: white;
-    background: #FF4850;
-    padding: 0;
-    background-radius: 15px;
-
 
 }
 
-
-
-li a:hover {
-    background-color: #CCC;
-    border-radius: 15px
+.menu ul li
+{
+	list-style: none;
+  float: right;
 }
+
+.menu ul li a
+{
+	padding: 10px;
+  text-align: center;
+	display: block;
+	color: #88898B;
+	text-decoration: none;
+}
+
+.menu ul li:first-child
+{
+  display: block;
+   color: white;
+   background: #FF4850;
+   padding: 0;
+   background-radius: 15px;
+
+}
+
+.menu ul li a:hover
+{
+  display: block;
+  background-color: #CCC;
+  border-radius: 15px
+}
+
+
 
 
 
 .adopting {
   color: #FF4850;
+}
+
+
+
+
+
+
+button {
+  color: white;
+  background-color: #FF4850;
+  border-radius: 15px
+  padding: 10px;
 }
