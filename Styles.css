@@ -22,6 +22,20 @@ body {
 }
 
 
+#content {
+  font-family: sans-serif;
+  resize: horizontal;
+  overflow: auto;
+  width: 500px;
+}
+
+
+
+
+
+
+
+
 
 .menu ul
 {
@@ -38,6 +52,7 @@ body {
 {
 	list-style: none;
   float: right;
+
 }
 
 .menu ul li a
