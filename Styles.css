@@ -144,12 +144,10 @@ p {
 
 
 
-
-span {
-  white-space: nowrap;
-
+.container {
+  align-items: baseline;
+  font-size: 20pt;
 }
-
 
 
 
@@ -163,6 +161,7 @@ span {
   font-size: 14pt;
 
 }
+
 
 
 
