@@ -7,6 +7,10 @@
 
 
 
+
+
+
+
 body {
   background-image: url("bulldog.jpg");
   background-repeat: no-repeat;
@@ -139,15 +143,25 @@ p {
 
 
 
-.container {
-  display:inline-block;
+
+
+span {
+  white-space: nowrap;
+
 }
 
 .menu ul {
+  padding: 0px;
   text-align: left;
 }
 
+#contact
+{
 
+  padding: 10px 40px 10px 40px;
+  margin: 0px 20px 20px 10px
+
+}
 
   body {
     background-color: #F0ECEE;
@@ -163,11 +177,14 @@ h1 {
 
 }
  p {
-   margin-left: none;
+   margin: 0px 10px 10px 10px ;
  }
 
 
-
+.content a#find {
+  padding: 10px 40px 10px 40px;
+  text-align: center;
+  margin: 0px 20px 20px 10px
 
 
 
