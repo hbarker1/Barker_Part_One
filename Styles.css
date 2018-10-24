@@ -99,12 +99,13 @@ p {
   margin-left: 40px;
   color: #88898B;
   font-weight: 300;
-  width: 500px;
+  width: 450px;
+
 }
 
 .adopting {
   color: #FF4850;
-  flex-wrap: wrap;
+
 
 }
 
@@ -126,18 +127,36 @@ p {
 
 
 @media screen and (max-width: 768px) {
+  *
+  {
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+
+
+  }
+
+
   body {
     background-color: #F0ECEE;
     background-image: none;
-    justify-content:space-around;
+    justify-content: initial;
 
   }
 
-  .menu
-  {
-    width: 100%;
 
 
-  }
+h1 {
+  width: 100%;
+
+}
+ p {
+   margin-left: none;
+ }
+
+
+
+
+
 
 }
