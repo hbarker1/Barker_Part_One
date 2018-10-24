@@ -59,6 +59,7 @@ body {
 	display: block;
 	color: #88898B;
 	text-decoration: none;
+  font-weight: 300;
 }
 
 .menu ul li a#contact
@@ -67,6 +68,7 @@ body {
    color: white;
    background: #FF4850;
    border-radius: 15px;
+   font-weight: 300;
 
 }
 
@@ -80,12 +82,16 @@ body {
 
 h1 {
   margin-left: 40px;
+  font-weight: 600;
+  width: 400px;
+  font-size: 20pt;
 }
 
 
 p {
   margin-left: 40px;
   color: #88898B;
+  font-weight: 300;
 }
 
 .adopting {
@@ -100,6 +106,7 @@ p {
   display: inline-block;
   color: white;
   background-color: #FF4850;
+  font-weight: 400;
   border-radius: 15px;
   padding: 10px 40px 10px 40px;
   text-align: center;
