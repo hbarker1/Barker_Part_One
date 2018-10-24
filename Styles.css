@@ -41,7 +41,7 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: none;
-
+    width:auto;
 
 }
 
@@ -60,6 +60,7 @@ body {
 	color: #88898B;
 	text-decoration: none;
   font-weight: 300;
+
 }
 
 .menu ul li a#contact
@@ -72,11 +73,17 @@ body {
 
 }
 
+.menu ul li a#contact:hover {
+  color: #88898B;
+}
+
+
 .menu ul li a:hover
 {
   display: block;
   background-color: #CCC;
-  border-radius: 15px
+  border-radius: 15px;
+  color: #FF4850;
 }
 
 
@@ -92,10 +99,12 @@ p {
   margin-left: 40px;
   color: #88898B;
   font-weight: 300;
+  width: 500px;
 }
 
 .adopting {
   color: #FF4850;
+  flex-wrap: wrap;
 
 }
 
@@ -112,5 +121,23 @@ p {
   text-align: center;
   margin-left: 40px;
 
+
+}
+
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #F0ECEE;
+    background-image: none;
+    justify-content:space-around;
+
+  }
+
+  .menu
+  {
+    width: 100%;
+
+
+  }
 
 }
