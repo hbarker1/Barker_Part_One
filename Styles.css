@@ -42,13 +42,14 @@ body {
     overflow: hidden;
     background-color: none;
     width:auto;
+    float:right;
 
 }
 
 .menu ul li
 {
 	list-style: none;
-  float: right;
+  float: left;
 
 }
 
@@ -135,6 +136,17 @@ p {
 
 
   }
+
+
+
+.container {
+  display:inline-block;
+}
+
+.menu ul {
+  text-align: left;
+}
+
 
 
   body {
