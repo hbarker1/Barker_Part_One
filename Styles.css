@@ -9,9 +9,12 @@
 .container {
   font-weight: 400;
   white-space: nowrap;
-  display: inline-block;
+  display: block;
   font-size: 15pt;
+  float: left;
 }
+
+
 
 
 
@@ -138,6 +141,23 @@ p {
 }
 
 
+
+.Me {
+
+  color: #FF4850;
+
+}
+
+
+
+.adopting {
+  color: #FF4850;
+}
+
+
+
+
+
 @media screen and (max-width: 768px) {
   *
   {
@@ -148,25 +168,25 @@ p {
 
   }
 
+.Me {
 
-
-.container {
-  font-size: 20pt;
-  vertical-align: text-top;
+  display:inline;
 
 
 }
 
 
 
-.menu ul li a
-{
-	padding: 10px;
-  text-align: left;
-	display: block;
-	text-decoration: none;
-  font-weight: 300;
-  font-size: 14pt;
+.adopting {
+  display: inline;
+  width: auto;
+}
+
+
+.container {
+  font-size: 20pt;
+  vertical-align: text-top;
+  margin: 10px;
 
 }
 
@@ -182,7 +202,28 @@ p {
   margin: 0px 20px 20px 10px
 
 
+
 }
+
+
+
+
+
+
+
+.menu ul li a
+{
+	padding: 10px;
+  text-align: left;
+	display: block;
+	text-decoration: none;
+  font-weight: 300;
+  font-size: 14pt;
+
+
+}
+
+
 
   body {
     background-color: #F0ECEE;
@@ -194,13 +235,18 @@ p {
 
 
 h1 {
-  width: 100%;
+
   font-size: 25pt;
   margin-left: 10px;
+  display: inline;
+  width: 300px;
+  margin-bottom: 0px;
 
 }
  p {
    margin: 0px 10px 10px 10px ;
+   font-size: 11pt;
+   padding: 0px 0px 5px 0px;
  }
 
 
